@@ -1,0 +1,39 @@
+{
+  "blogs": [
+    {
+      "id": "2",
+      "title": "My Second Blog",
+      "category": "Science",
+      "content": "Second",
+      "author": "karan"
+    },
+    {
+      "title": "jhwhdwfkwhejf",
+      "content": "nkjdfsd",
+      "category": "Entertainment",
+      "id": "rS0vbGz",
+      "author": "karan"
+    },
+    {
+      "title": "Title",
+      "content": "lkjhwewfljkjwf",
+      "category": "Science",
+      "id": "NYwAi94",
+      "author": "karan"
+    },
+    {
+      "title": "TimePass",
+      "content": "nklwefk",
+      "category": "Science",
+      "author": "karan",
+      "id": "Q26oS9q"
+    }
+  ],
+  "users": [
+    {
+      "username": "karan",
+      "password": "123",
+      "type": "admin"
+    }
+  ]
+}

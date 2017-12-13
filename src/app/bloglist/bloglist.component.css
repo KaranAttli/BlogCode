@@ -1,0 +1,12 @@
+.boxes2{
+  border : 1px solid black;
+  margin : 10px 0px;
+  font-size: large;
+  padding: 10px 5px;
+  background-color: #7ad3b1;
+  color : darkblue;
+}
+
+.content{
+  font-weight: bold;
+}

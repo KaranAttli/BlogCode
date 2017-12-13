@@ -1,0 +1,68 @@
+<div class="container-fluid">
+  <app-navbar></app-navbar>
+
+    <div>
+      <h1>FilterBy  :</h1>
+    </div>
+
+      <form [formGroup]="userform" (ngSubmit)="filterList()" class="form-inline">
+        <div class="form-group">
+        <div>
+          <label>Filter By:</label>
+        </div>
+        <div>
+          <select class="form-control" formControlName="category">
+            <option></option>
+            <option value="Science">Science</option>
+            <option value="News">News</option>
+            <option value="General">General</option>
+            <option value="Entertainment">Entertainment</option>
+          </select>
+        </div>
+        <div>
+          <input type="submit" value="Search">
+        </div>
+
+
+    </div>
+      </form>
+
+
+
+    <div class="row boxes2" *ngFor="let temp of data">
+            <div class="col-sm-1">
+                Title :
+            </div>
+            <div class="col-sm-2">
+              {{temp.title}}
+            </div>
+            <div class="col-sm-1">
+              Author:
+            </div>
+            <div class="col-sm-1">
+              {{temp.author}}
+            </div>
+             <div class="col-sm-1">
+                Category:
+              </div>
+            <div class="col-sm-1">{{temp.category}}</div>
+            <div class="col-sm-1">Rating</div>
+            <div class="col-sm-2">{{temp.rating}}</div>
+            <div *ngIf="check(temp)" >
+              <button class="btn btn-default" (click)="deleteBlog(temp)">Delete</button>
+              <button class="btn btn-default" (click)="editBlog(temp)">Edit</button>
+            </div>
+
+            <br>
+            <br>
+            <div class="col-sm-12 content">
+              {{temp.content}}
+            </div>
+
+      <div>
+
+      </div>
+    </div>
+
+
+</div>

@@ -1,0 +1,18 @@
+
+
+
+#background{
+  margin-top: -20px;
+  height: 100%;
+  width : 100%;
+}
+
+#me{
+  font-family: Helvetica;
+  font-size: xx-large;
+  color : white;
+  height : 200px;
+  position: absolute;;
+  top : 50%;
+  left: 450px;
+}

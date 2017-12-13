@@ -1,0 +1,85 @@
+{
+  "blogs": [
+    {
+      "title": "Title",
+      "content": "lkjhwewfljkjwf",
+      "category": "Science",
+      "id": "NYwAi94",
+      "rating": "5",
+      "author": "karan"
+    },
+    {
+      "title": "Karan",
+      "content": "kjbdfjdf",
+      "category": "Technical",
+      "rating": "5",
+      "id": "kwKHL7b"
+    },
+    {
+      "title": "Finally",
+      "content": "Finally done",
+      "category": "Science",
+      "author": "karan",
+      "rating": "5",
+      "id": "hLYBD3k"
+    },
+    {
+      "title": "fjkfjkerkjgfdklgnkld",
+      "content": "sredtcfvghbjnklm",
+      "category": "Science",
+      "rating": "8",
+      "author": "Dilpreet",
+      "id": "H~5Ep7T"
+    },
+    {
+      "title": "New Blog",
+      "content": "bkhbku",
+      "category": "Science",
+      "author": "karan",
+      "rating": "8.6",
+      "id": "883p03b"
+    },
+    {
+      "title": "jkdkfj123",
+      "content": "fdf",
+      "category": "Science",
+      "author": "karan",
+      "rating": "9",
+      "id": "Dc7avdo"
+    },
+    {
+      "title": "jj",
+      "content": "nkfwe",
+      "category": "Technical",
+      "author": "karan",
+      "rating": 3,
+      "id": "vQjaG6a"
+    }
+  ],
+  "users": [
+    {
+      "id": "1",
+      "username": "karan",
+      "password": "123",
+      "type": "admin"
+    },
+    {
+      "username": "q",
+      "password": "1",
+      "type": "user",
+      "id": "3nSyEFC"
+    },
+    {
+      "username": "Dilpreet",
+      "password": "123",
+      "type": "user",
+      "id": "bgUr94X"
+    },
+    {
+      "username": "karan",
+      "password": "",
+      "type": "user",
+      "id": "~7WP2JV"
+    }
+  ]
+}

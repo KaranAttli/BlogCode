@@ -1,0 +1,34 @@
+<div class="container-fluid">
+  <app-navbar></app-navbar>
+
+
+  <div class="row boxes2" *ngFor="let temp of data">
+    <div class="col-sm-1">
+      Title :
+    </div>
+    <div class="col-sm-2">
+      {{temp.title}}
+    </div>
+    <div class="col-sm-1">
+      Author:
+    </div>
+    <div class="col-sm-2">
+      {{temp.author}}
+    </div>
+    <div class="col-sm-1">
+      Category:
+    </div>
+    <div class="col-sm-2">{{temp.category}}</div>
+    <div class="col-sm-1">Rating</div>
+    <div class="col-sm-1">{{temp.rating}}</div>
+
+
+<br>
+    <br>
+    <div class="col-sm-12">
+      {{temp.content}}
+    </div>
+
+    <div>
+
+    </div>
